@@ -10,6 +10,7 @@ phases:
       - rbenv install 2.6.0
       - rbenv global 2.6.0
       - gem install bundler
+      - bundle update mimemagic
       - bundle install --path ./bundle
 
 artifacts:
